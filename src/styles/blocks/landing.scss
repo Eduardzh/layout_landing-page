@@ -1,5 +1,3 @@
-@import '../utils/variables.scss';
-
 .landing {
 
 @include padding-landing();
@@ -102,7 +100,6 @@
 
 &__product-price {
   font-weight: 700;
-  font-size: 16px;
   line-height: 32px;
   letter-spacing: 0;
 }
@@ -144,8 +141,6 @@
 
 &__paragraph {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 140%;
   letter-spacing: 0.15px;
 }
 
@@ -307,7 +302,6 @@
   font-weight: 400;
   color: #7e7e83;
   font-size: 14px;
-  line-height: 140%;
   letter-spacing: 0.15px;
 }
 
@@ -330,9 +324,7 @@
 
 &__contacts-item {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 140%;
-  letter-spacing: 0.15px;
+q  letter-spacing: 0.15px;
   color: #191919;
 }
 
