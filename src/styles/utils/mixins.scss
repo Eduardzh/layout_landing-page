@@ -36,3 +36,10 @@
   line-height: 140%;
   letter-spacing: 0;
 }
+
+@mixin hover ($property, $toValue) {
+  transition: #{$property} 0.3s;
+  &:hover {
+    #{$property}: $toValue;
+  }
+}

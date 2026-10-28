@@ -1,6 +1,5 @@
 .landing {
-
-@include padding-landing();
+@include padding-landing;
 
 &__main {
   gap: 96px;
@@ -10,6 +9,7 @@
 
 &__title {
   @include defaul-title-size;
+
   margin: 0 0 48px;
   letter-spacing: 0;
 }
@@ -32,11 +32,13 @@
   margin: 0 0 8px;
   display: block;
   text-transform: uppercase;
+
   @include product-title-size;
 }
 
 &__title--category {
   margin: 16px 0 0;
+
   @include product-title-size;
 }
 
@@ -324,7 +326,7 @@
 
 &__contacts-item {
   font-weight: 400;
-q  letter-spacing: 0.15px;
+  letter-spacing: 0.15px;
   color: #191919;
 }
 
