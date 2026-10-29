@@ -5,14 +5,14 @@
   height: 100vh;
   background-color: #f9f9f9;
   overflow: auto; /* to scroll the menu if needed */
-  cursor: url(/src/images/icons/icon-cursor.png), auto;
+  cursor: url(/src/images/icons/icon-cursor.png);
 
 &__phone-number {
   @include menu-call;
   display: block;
   color: inherit;
   margin-bottom: 16px;
-  cursor: url(/src/images/icons/icon-cursor.png), auto;
+  cursor: url(/src/images/icons/icon-cursor.png);
 }
 
 &__call-to-order {
@@ -23,11 +23,12 @@
   line-height: 140%;
   padding-bottom: 3px;
   border-bottom: 1px solid #1b2129;
-  cursor: url(/src/images/icons/icon-cursor.png), auto;
+  cursor: url(/src/images/icons/icon-cursor.png);
 }
 
 &__content {
   padding-inline: 20px;
+  cursor: url(/src/images/icons/icon-cursor.png);
 }
 
 @media (min-width: 744px) {
