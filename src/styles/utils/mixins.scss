@@ -12,9 +12,8 @@
   }
 
   @media (min-width: 1260px) {
-      padding: 0 120px;
+    padding: 0 120px;
   }
-
 }
 
 @mixin menu-call {
@@ -39,7 +38,7 @@
 
 @mixin hover($property, $toValue) {
   transition: #{$property} 0.3s;
-    &:hover {
-      #{$property}: $toValue;
-    }
+  &:hover {
+    #{$property}: $toValue;
+  }
 }
